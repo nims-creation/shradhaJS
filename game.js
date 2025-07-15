@@ -19,7 +19,7 @@ const drawGame = ()=>{
     //console.log("Game was Draw 😒!");
     msg.innerText = "Draw, Play Again...";
     msg.style.backgroundColor = "orange";
-    
+    msg.style.color = "green";
 }
 const playGame = (userChoice)=>{
     console.log("user choose",userChoice);
