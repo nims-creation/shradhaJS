@@ -33,6 +33,7 @@ const playGame = (userChoice)=>{
             // console.log("Hurrah! You Win the game...");
             msg.innerText = `You Win!,Your ${userChoice} beats ${computerChoice}`;
             msg.style.backgroundColor = "green";
+            msg.style.color = "yello";
             userScore++;
             userScorePara.innerText = userScore;
         }
